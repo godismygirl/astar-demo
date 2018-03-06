@@ -1,0 +1,43 @@
+html,body{
+  height: 100%;
+}
+
+.board{
+  position: relative;
+  overflow: hidden;
+}
+.grid{
+  border:1px solid #fff;
+  background:#f6f6f6;
+  box-sizing: border-box;
+  width:20px;
+  height:20px;
+}
+.grid.start{
+  background:#ff2d51;
+}
+.grid.end{
+  background:#057748;
+}
+.grid.path{
+  background:#44cef6;
+}
+.grid.block{
+  background:#3d3b4f;
+}
+
+.control-panel{
+
+}
+.control-panel .btn-confirm{
+  background:#4b5cc4;
+  color:#fff;
+  border:1px solid #4b5cc4;
+  border-radius:3px;
+}
+.control-panel .btn-clear{
+  background:#fff;
+  color:#666;
+  border:1px solid #ccc;
+  border-radius:3px;
+}
